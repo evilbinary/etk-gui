@@ -1,0 +1,251 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP110B.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\My Documents\Visual C++\etkgui-vc6\etkguivc\sample\nesemu\InfoNES_pAPU.c"
+"D:\My Documents\Visual C++\etkgui-vc6\etkguivc\sample\nesemu\K6502.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP110B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP110C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SDLmain.lib SDL.lib Ws2_32.lib etklib.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/main.pdb" /debug /machine:I386 /out:"Debug/main.exe" /pdbtype:sept 
+".\Debug\InfoNES.obj"
+".\Debug\InfoNES_Mapper.obj"
+".\Debug\InfoNES_pAPU.obj"
+".\Debug\K6502.obj"
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP110C.tmp"
+<h3>Output Window</h3>
+Compiling...
+InfoNES_pAPU.c
+d:\my documents\visual c++\etkgui-vc6\etkguivc\etklib\include\etk_type.h(82) : warning C4005: 'NULL' : macro redefinition
+        c:\program files\microsoft visual studio\vc98\include\string.h(84) : see previous definition of 'NULL'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(85) : error C2061: syntax error : identifier 'BYTE'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(86) : error C2061: syntax error : identifier 'data'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(86) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(87) : error C2059: syntax error : '}'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(116) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(116) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(116) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(116) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(116) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(117) : error C2061: syntax error : identifier 'pAPUSoundRegs'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(117) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(117) : error C2059: syntax error : '['
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(118) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(118) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(118) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(118) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.h(118) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(20) : error C2133: 'ApuEventQueue' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(22) : error C2061: syntax error : identifier 'entertime'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(22) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(37) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(37) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(37) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(37) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(37) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(38) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(38) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(38) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(38) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(38) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(39) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(39) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(39) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(39) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(39) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(40) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(40) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(40) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(40) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(40) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(42) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(42) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(42) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(42) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(42) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(43) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(43) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(43) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(43) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(43) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(44) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(44) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(44) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(44) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(44) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(45) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(45) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(45) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(45) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(45) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(47) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(47) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(47) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(47) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(47) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(48) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(48) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(48) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(48) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(48) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(49) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(49) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(49) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(49) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(49) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(50) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(50) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(50) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(50) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(50) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(52) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(52) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(52) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(52) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(52) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(53) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(53) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(53) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(53) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(53) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(54) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(54) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(54) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(54) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(54) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(55) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(55) : error C2061: syntax error : identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(55) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(55) : error C2059: syntax error : ','
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(55) : error C2059: syntax error : ')'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(57) : error C2146: syntax error : missing ')' before identifier 'addr'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\infones_papu.c(57) : fatal error C1003: error count exceeds 100; stopping compilation
+K6502.c
+d:\my documents\visual c++\etkgui-vc6\etkguivc\etklib\include\etk_type.h(82) : warning C4005: 'NULL' : macro redefinition
+        c:\program files\microsoft visual studio\vc98\include\string.h(84) : see previous definition of 'NULL'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(129) : error C2061: syntax error : identifier 'PC'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(129) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(130) : error C2061: syntax error : identifier 'SP'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(130) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(131) : error C2061: syntax error : identifier 'F'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(131) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(132) : error C2061: syntax error : identifier 'A'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(132) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(133) : error C2061: syntax error : identifier 'X'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(133) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(134) : error C2061: syntax error : identifier 'Y'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(134) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(138) : error C2061: syntax error : identifier 'IRQ_State'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(138) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(141) : error C2061: syntax error : identifier 'IRQ_Wiring'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(141) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(144) : error C2061: syntax error : identifier 'NMI_State'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(144) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(147) : error C2061: syntax error : identifier 'NMI_Wiring'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(147) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(150) : error C2061: syntax error : identifier 'g_wPassedClocks'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(150) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(153) : error C2061: syntax error : identifier 'g_U8stTable'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(153) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(153) : error C2059: syntax error : '['
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(158) : error C2061: syntax error : identifier 'U8'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(159) : error C2061: syntax error : identifier 'byFlag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(159) : error C2059: syntax error : ';'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(160) : error C2059: syntax error : '}'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(163) : error C2133: 'g_ASLTable' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(166) : error C2133: 'g_LSRTable' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(169) : error C2133: 'g_ROLTable' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(172) : error C2133: 'g_RORTable' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(187) : error C2065: 'U8' : undeclared identifier
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(187) : error C2146: syntax error : missing ';' before identifier 'idx'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(187) : error C2065: 'idx' : undeclared identifier
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(188) : error C2146: syntax error : missing ';' before identifier 'idx2'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(188) : error C2065: 'idx2' : undeclared identifier
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(191) : error C2065: 'NMI_Wiring' : undeclared identifier
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(192) : error C2065: 'IRQ_Wiring' : undeclared identifier
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(199) : error C2065: 'g_U8stTable' : undeclared identifier
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(199) : error C2109: subscript requires array or pointer type
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(199) : error C2106: '=' : left operand must be l-value
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(202) : error C2109: subscript requires array or pointer type
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(202) : error C2106: '=' : left operand must be l-value
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(204) : error C2109: subscript requires array or pointer type
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(204) : error C2106: '=' : left operand must be l-value
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(213) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(213) : error C2037: left of 'byValue' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(214) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(214) : error C2037: left of 'byFlag' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(217) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(217) : error C2037: left of 'byFlag' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(219) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(219) : error C2037: left of 'byValue' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(220) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(220) : error C2037: left of 'byFlag' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(222) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(222) : error C2037: left of 'byValue' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(223) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(223) : error C2037: left of 'byFlag' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(232) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(232) : error C2037: left of 'byValue' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(233) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(233) : error C2037: left of 'byFlag' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(236) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(236) : error C2037: left of 'byFlag' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(238) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(238) : error C2037: left of 'byValue' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(239) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(239) : error C2037: left of 'byFlag' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(250) : error C2036: 'struct value_table_tag (*)[256]' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(250) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(250) : error C2037: left of 'byValue' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(251) : error C2036: 'struct value_table_tag (*)[256]' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(251) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(251) : error C2037: left of 'byFlag' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(254) : error C2036: 'struct value_table_tag (*)[256]' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(254) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(254) : error C2037: left of 'byFlag' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(256) : error C2036: 'struct value_table_tag (*)[256]' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(256) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(256) : error C2037: left of 'byValue' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(257) : error C2036: 'struct value_table_tag (*)[256]' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(257) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(257) : error C2037: left of 'byFlag' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(259) : error C2036: 'struct value_table_tag (*)[256]' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(259) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(259) : error C2037: left of 'byValue' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(260) : error C2036: 'struct value_table_tag (*)[256]' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(260) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(260) : error C2037: left of 'byFlag' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(272) : error C2036: 'struct value_table_tag (*)[256]' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(272) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(272) : error C2037: left of 'byValue' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(273) : error C2036: 'struct value_table_tag (*)[256]' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(273) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(273) : error C2037: left of 'byFlag' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(276) : error C2036: 'struct value_table_tag (*)[256]' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(276) : error C2036: 'struct value_table_tag *' : unknown size
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(276) : error C2037: left of 'byFlag' specifies undefined struct/union 'value_table_tag'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\nesemu\k6502.c(276) : fatal error C1003: error count exceeds 100; stopping compilation
+Error executing cl.exe.
+Creating command line "bscmake.exe /nologo /o"Debug/main.bsc"  ".\Debug\InfoNES.sbr" ".\Debug\InfoNES_Mapper.sbr" ".\Debug\InfoNES_pAPU.sbr" ".\Debug\K6502.sbr" ".\Debug\main.sbr""
+Creating browse info file...
+BSCMAKE: error BK1506 : cannot open file '.\Debug\InfoNES_pAPU.sbr': No such file or directory
+Error executing bscmake.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+main.exe - 205 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE98.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\My Documents\Visual C++\etkgui-vc6\etkguivc\sample\testapp\etk_app.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE98.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE99.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SDLmain.lib SDL.lib Ws2_32.lib etklib.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/main.pdb" /debug /machine:I386 /out:"Debug/main.exe" /pdbtype:sept 
+".\Debug\ajust.obj"
+".\Debug\etk_app.obj"
+".\Debug\etk_canvas_ex.obj"
+".\Debug\light.obj"
+".\Debug\main.obj"
+".\Debug\power.obj"
+".\Debug\sinclock.obj"
+".\Debug\status.obj"
+".\Debug\temhum.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE99.tmp"
+<h3>Output Window</h3>
+Compiling...
+etk_app.c
+D:\My Documents\Visual C++\etkgui-vc6\etkguivc\sample\testapp\etk_app.c(167) : warning C4013: 'etk_light_create' undefined; assuming extern returning int
+D:\My Documents\Visual C++\etkgui-vc6\etkguivc\sample\testapp\etk_app.c(43) : warning C4101: 'pic' : unreferenced local variable
+D:\My Documents\Visual C++\etkgui-vc6\etkguivc\sample\testapp\etk_app.c(218) : warning C4101: 'd' : unreferenced local variable
+D:\My Documents\Visual C++\etkgui-vc6\etkguivc\sample\testapp\etk_app.c(321) : warning C4101: 'd' : unreferenced local variable
+D:\My Documents\Visual C++\etkgui-vc6\etkguivc\sample\testapp\etk_app.c(404) : warning C4101: 'b' : unreferenced local variable
+D:\My Documents\Visual C++\etkgui-vc6\etkguivc\sample\testapp\etk_app.c(405) : warning C4101: 'c' : unreferenced local variable
+D:\My Documents\Visual C++\etkgui-vc6\etkguivc\sample\testapp\etk_app.c(450) : warning C4101: 'e' : unreferenced local variable
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/main.bsc"  ".\Debug\ajust.sbr" ".\Debug\etk_app.sbr" ".\Debug\etk_canvas_ex.sbr" ".\Debug\light.sbr" ".\Debug\main.sbr" ".\Debug\power.sbr" ".\Debug\sinclock.sbr" ".\Debug\status.sbr" ".\Debug\temhum.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+main.exe - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>

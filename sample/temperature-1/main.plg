@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9A7.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../etklib/" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\My Documents\Visual C++\etkgui-vc6\etkguivc\sample\temperature-1\etk_canvas_ex.c"
+"D:\My Documents\Visual C++\etkgui-vc6\etkguivc\sample\temperature-1\light.c"
+"D:\My Documents\Visual C++\etkgui-vc6\etkguivc\sample\temperature-1\main.c"
+"D:\My Documents\Visual C++\etkgui-vc6\etkguivc\sample\temperature-1\power.c"
+"D:\My Documents\Visual C++\etkgui-vc6\etkguivc\sample\temperature-1\status.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9A7.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9A8.tmp" with contents
+[
+etklib.lib SDL.lib Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/main.pdb" /debug /machine:I386 /out:"Debug/main.exe" /pdbtype:sept 
+".\Debug\ajust.obj"
+".\Debug\etk_canvas_ex.obj"
+".\Debug\light.obj"
+".\Debug\main.obj"
+".\Debug\power.obj"
+".\Debug\status.obj"
+".\Debug\temhum.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9A8.tmp"
+<h3>Output Window</h3>
+Compiling...
+etk_canvas_ex.c
+light.c
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\etk_canvas_ex.c(53) : warning C4716: 'etk_canvas_draw_circle' : must return a value
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\etk_canvas_ex.c(81) : warning C4716: 'etk_canvas_fill_circle' : must return a value
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(43) : warning C4101: 'buf' : unreferenced local variable
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(42) : warning C4101: 'r' : unreferenced local variable
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(41) : warning C4101: 'i' : unreferenced local variable
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(41) : warning C4101: 'j' : unreferenced local variable
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(65) : warning C4013: 'etk_button_set_data' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(65) : warning C4013: 'etk_button_get_data' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(66) : warning C4013: 'etk_light_button_up_paint' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(87) : warning C4013: 'etk_default_wnd_manager_update_rect' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(87) : warning C4013: 'etk_default_wnd_manager' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(94) : warning C4013: 'etk_default_wnd_manager_update_widget' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(80) : warning C4101: 'canvas' : unreferenced local variable
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(154) : warning C4013: 'etk_wnd_manager_dispatch_event' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(206) : warning C4013: 'etk_button_create_ex' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(206) : warning C4047: '=' : 'struct EtkWidget_t *' differs in levels of indirection from 'int '
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(213) : warning C4013: 'etk_button_set_clicked_listener' undefined; assuming extern returning int
+main.c
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\light.c(140) : warning C4716: 'etk_light_button_on_paint' : must return a value
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\main.c(46) : warning C4013: 'etk_temhum_create' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\main.c(47) : warning C4013: 'etk_light_create' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\main.c(48) : warning C4013: 'etk_power_create' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\main.c(49) : warning C4013: 'etk_status_create' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\main.c(50) : warning C4013: 'etk_ajust_create' undefined; assuming extern returning int
+power.c
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(43) : warning C4101: 'buf' : unreferenced local variable
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(42) : warning C4101: 'r' : unreferenced local variable
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(41) : warning C4101: 'i' : unreferenced local variable
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(41) : warning C4101: 'j' : unreferenced local variable
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(65) : warning C4013: 'etk_button_set_data' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(65) : warning C4013: 'etk_button_get_data' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(66) : warning C4013: 'etk_power_button_up_paint' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(87) : warning C4013: 'etk_default_wnd_manager_update_rect' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(87) : warning C4013: 'etk_default_wnd_manager' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(94) : warning C4013: 'etk_default_wnd_manager_update_widget' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(80) : warning C4101: 'canvas' : unreferenced local variable
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(154) : warning C4013: 'etk_wnd_manager_dispatch_event' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(208) : warning C4013: 'etk_button_create_ex' undefined; assuming extern returning int
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(208) : warning C4047: '=' : 'struct EtkWidget_t *' differs in levels of indirection from 'int '
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(215) : warning C4013: 'etk_button_set_clicked_listener' undefined; assuming extern returning int
+status.c
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\power.c(140) : warning C4716: 'etk_power_button_on_paint' : must return a value
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\status.c(17) : warning C4047: '=' : 'int ' differs in levels of indirection from 'char [3]'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\status.c(19) : warning C4047: '=' : 'int ' differs in levels of indirection from 'char [3]'
+d:\my documents\visual c++\etkgui-vc6\etkguivc\sample\temperature-1\status.c(28) : warning C4047: '=' : 'int ' differs in levels of indirection from 'char [5]'
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/main.bsc"  ".\Debug\ajust.sbr" ".\Debug\etk_canvas_ex.sbr" ".\Debug\light.sbr" ".\Debug\main.sbr" ".\Debug\power.sbr" ".\Debug\status.sbr" ".\Debug\temhum.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+main.exe - 0 error(s), 42 warning(s)
+</pre>
+</body>
+</html>
