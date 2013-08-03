@@ -42,7 +42,6 @@ Ret etk_canvas_paint_global_rect(EtkDisplay *display,EtkCanvas *thiz,EtkRect *re
 
 Ret etk_canvas_draw_pixel(EtkCanvas* thiz, e32 x,e32 y, u32 color);
 Ret etk_canvas_draw_line(EtkCanvas* thiz, e32 x1, e32 y1, e32 x2, e32 y2);
-Ret etk_canvas_draw_line_with_color(EtkCanvas* thiz, e32 x1, e32 y1, e32 x2, e32 y2,u32 color);
 Ret etk_canvas_clear_rect(EtkCanvas* thiz, e32 x, e32 y, e32 w, e32 h);
 Ret etk_canvas_fill_rect(EtkCanvas* thiz,e32 x,e32 y,e32 width,e32 height,u32 color);
 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="ekt_input_method_pinyin.c" open="0" top="0" tabpos="5">
+		<Cursor position="35757" topLine="606" />
+	</File>
+	<File name="etk.c" open="1" top="0" tabpos="1">
+		<Cursor position="1279" topLine="1" />
+	</File>
+	<File name="etk.h" open="0" top="0" tabpos="2">
+		<Cursor position="160" topLine="0" />
+	</File>
+	<File name="etk_app.c" open="1" top="0" tabpos="5">
+		<Cursor position="7791" topLine="217" />
+	</File>
+	<File name="etk_canvas.c" open="0" top="0" tabpos="4">
+		<Cursor position="7891" topLine="271" />
+	</File>
+	<File name="etk_display_sdl.h" open="1" top="1" tabpos="6">
+		<Cursor position="123" topLine="0" />
+	</File>
+	<File name="etk_entry.c" open="0" top="0" tabpos="0">
+		<Cursor position="8043" topLine="281" />
+	</File>
+	<File name="etk_global.h" open="1" top="0" tabpos="2">
+		<Cursor position="579" topLine="2" />
+	</File>
+	<File name="etk_image_jpeg_decoder.c" open="1" top="0" tabpos="4">
+		<Cursor position="10128" topLine="302" />
+	</File>
+	<File name="etk_rect.c" open="0" top="0" tabpos="0">
+		<Cursor position="2434" topLine="96" />
+	</File>
+	<File name="etk_type.h" open="0" top="0" tabpos="0">
+		<Cursor position="1604" topLine="79" />
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="3">
+		<Cursor position="56" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

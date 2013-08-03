@@ -1,0 +1,20 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: etklib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'D:\My Documents\Visual C++\etkgui-vc6\etklib\mine.c'
+
+Build : warning : failed to (or don't know how to) build 'D:\My Documents\Visual C++\etkgui-vc6\etklib\jpegdec.c'
+
+
+
+
+<h3>Results</h3>
+etklib.lib - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

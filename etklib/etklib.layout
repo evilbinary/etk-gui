@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="testmain" />
+	<File name="ekt_input_method_pinyin.c" open="0" top="0" tabpos="0">
+		<Cursor position="37632" topLine="669" />
+	</File>
+	<File name="etk.c" open="1" top="0" tabpos="2">
+		<Cursor position="1410" topLine="30" />
+	</File>
+	<File name="etk.h" open="0" top="0" tabpos="0">
+		<Cursor position="59" topLine="0" />
+	</File>
+	<File name="etk_app.c" open="0" top="0" tabpos="0">
+		<Cursor position="2383" topLine="64" />
+	</File>
+	<File name="etk_canvas.c" open="0" top="0" tabpos="0">
+		<Cursor position="2802" topLine="50" />
+	</File>
+	<File name="etk_display_sdl.c" open="0" top="0" tabpos="0">
+		<Cursor position="2448" topLine="44" />
+	</File>
+	<File name="etk_display_sdl.h" open="0" top="0" tabpos="2">
+		<Cursor position="849" topLine="12" />
+	</File>
+	<File name="etk_global.h" open="0" top="0" tabpos="0">
+		<Cursor position="555" topLine="6" />
+	</File>
+	<File name="etk_image_bmp_decoder.c" open="0" top="0" tabpos="0">
+		<Cursor position="1243" topLine="21" />
+	</File>
+	<File name="etk_image_jpeg_decoder.c" open="0" top="0" tabpos="2">
+		<Cursor position="10716" topLine="339" />
+	</File>
+	<File name="etk_input_method.c" open="0" top="0" tabpos="0">
+		<Cursor position="1051" topLine="16" />
+	</File>
+	<File name="etk_input_method_manager.c" open="0" top="0" tabpos="0">
+		<Cursor position="1098" topLine="17" />
+	</File>
+	<File name="etk_main_loop.c" open="0" top="0" tabpos="0">
+		<Cursor position="3173" topLine="80" />
+	</File>
+	<File name="etk_source.c" open="0" top="0" tabpos="0">
+		<Cursor position="1508" topLine="33" />
+	</File>
+	<File name="etk_source_default.c" open="0" top="0" tabpos="0">
+		<Cursor position="1199" topLine="13" />
+	</File>
+	<File name="etk_sources_manager.c" open="1" top="1" tabpos="3">
+		<Cursor position="1150" topLine="35" />
+	</File>
+	<File name="etk_sources_manager.h" open="0" top="0" tabpos="0">
+		<Cursor position="367" topLine="2" />
+	</File>
+	<File name="etk_type.h" open="0" top="0" tabpos="0">
+		<Cursor position="1937" topLine="74" />
+	</File>
+	<File name="etk_util.h" open="0" top="0" tabpos="0">
+		<Cursor position="69" topLine="0" />
+	</File>
+	<File name="etk_widget.c" open="0" top="0" tabpos="0">
+		<Cursor position="2723" topLine="74" />
+	</File>
+	<File name="etk_win32.c" open="0" top="0" tabpos="0">
+		<Cursor position="3509" topLine="103" />
+	</File>
+	<File name="etk_win32.h" open="0" top="0" tabpos="0">
+		<Cursor position="484" topLine="2" />
+	</File>
+	<File name="etk_window.c" open="0" top="0" tabpos="0">
+		<Cursor position="1258" topLine="25" />
+	</File>
+	<File name="etk_wnd_manager.c" open="0" top="0" tabpos="0">
+		<Cursor position="1823" topLine="55" />
+	</File>
+	<File name="jpegdec.h" open="0" top="0" tabpos="0">
+		<Cursor position="260" topLine="1" />
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="1">
+		<Cursor position="179" topLine="0" />
+	</File>
+	<File name="queue.h" open="0" top="0" tabpos="0">
+		<Cursor position="6361" topLine="146" />
+	</File>
+</CodeBlocks_layout_file>

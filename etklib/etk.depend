@@ -1,0 +1,1240 @@
+# depslib dependency file v1.0
+1332248538 source:d:\my documents\codeprojec\etk\ekt_input_method_pinyin.c
+	"ekt_input_method_pinyin.h"
+	<string.h>
+	"etk_window.h"
+	"etk_wnd_manager.h"
+	"etk_button.h"
+	"etk_entry.h"
+	"etk_key.h"
+
+1332206272 d:\my documents\codeprojec\etk\ekt_input_method_pinyin.h
+	"etk_input_method.h"
+
+1332169940 d:\my documents\codeprojec\etk\etk_input_method.h
+	"etk_widget.h"
+	"etk_event.h"
+
+1332050764 d:\my documents\codeprojec\etk\etk_widget.h
+	"etk_display.h"
+	"etk_type.h"
+	"etk_canvas.h"
+	"etk_event.h"
+	"etk_rect.h"
+
+1330005102 d:\my documents\codeprojec\etk\etk_display.h
+	"etk_bitmap.h"
+	"etk_type.h"
+	"etk_rect.h"
+
+1331213728 d:\my documents\codeprojec\etk\etk_bitmap.h
+	"etk_type.h"
+	"etk_color.h"
+
+1332509061 d:\my documents\codeprojec\etk\etk_type.h
+
+1326735082 d:\my documents\codeprojec\etk\etk_color.h
+	"etk_type.h"
+
+1330947740 d:\my documents\codeprojec\etk\etk_rect.h
+	"etk_type.h"
+
+1332378378 d:\my documents\codeprojec\etk\etk_canvas.h
+	"etk_bitmap.h"
+	"etk_type.h"
+	"etk_gconf.h"
+	"etk_display.h"
+	"etk_rect.h"
+
+1330521588 d:\my documents\codeprojec\etk\etk_gconf.h
+	"etk_font.h"
+	"etk_color.h"
+
+1330521490 d:\my documents\codeprojec\etk\etk_font.h
+	"etk_type.h"
+
+1332332932 d:\my documents\codeprojec\etk\etk_event.h
+	"etk_type.h"
+	"etk_rect.h"
+
+1332430758 d:\my documents\codeprojec\etk\etk_window.h
+	"etk_widget.h"
+
+1332207414 d:\my documents\codeprojec\etk\etk_wnd_manager.h
+	"etk_type.h"
+	"etk_widget.h"
+	"etk_event.h"
+	"etk_main_loop.h"
+
+1330241596 d:\my documents\codeprojec\etk\etk_main_loop.h
+	"etk_sources_manager.h"
+	"etk_platform.h"
+	"etk_win32.h"
+
+1328626628 d:\my documents\codeprojec\etk\etk_sources_manager.h
+	"etk_type.h"
+	"etk_source.h"
+
+1328636048 d:\my documents\codeprojec\etk\etk_source.h
+	"etk_type.h"
+
+1332293502 d:\my documents\codeprojec\etk\etk_platform.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1332773159 d:\my documents\codeprojec\etk\etk_linux.h
+	<time.h>
+	<stdio.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/time.h>
+	<fcntl.h>
+	<winsock2.h>
+
+1332247188 d:\my documents\codeprojec\etk\etk_button.h
+	"etk_widget.h"
+
+1332241156 d:\my documents\codeprojec\etk\etk_entry.h
+	"etk_widget.h"
+
+1332245868 d:\my documents\codeprojec\etk\etk_key.h
+
+1332381936 source:d:\my documents\codeprojec\etk\etk.c
+	"etk.h"
+	"etk_global.h"
+	"etk_wnd_manager.h"
+	"etk_platform.h"
+	"etk_display.h"
+	"etk_display_sdl.h"
+	"etk_main_loop.h"
+	"etk_source_sdl.h"
+	"etk_win32.h"
+
+1328639094 d:\my documents\codeprojec\etk\etk.h
+	"etk_type.h"
+
+1332205292 d:\my documents\codeprojec\etk\etk_global.h
+	"etk_wnd_manager.h"
+	"etk_display.h"
+	"etk_source_default.h"
+	"etk_sources_manager.h"
+	"etk_main_loop.h"
+	"etk_font.h"
+	"etk_input_method_manager.h"
+
+1328635936 d:\my documents\codeprojec\etk\etk_source_default.h
+	"etk_source.h"
+	"etk_type.h"
+	"etk_event.h"
+
+1332207034 d:\my documents\codeprojec\etk\etk_input_method_manager.h
+	"etk_input_method.h"
+	"etk_widget.h"
+
+1330522576 d:\my documents\codeprojec\etk\etk_display_sdl.h
+	"etk_bitmap.h"
+	"etk_display.h"
+	"etk_type.h"
+	<SDL/SDL.h>
+	"etk_rect.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110988 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326110994 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\begin_code.h
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\close_code.h
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 d:\my documents\codeprojec\sdk\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1329050518 d:\my documents\codeprojec\etk\etk_source_sdl.h
+	"etk_source.h"
+
+1332996880 source:d:\my documents\codeprojec\etk\etk_app.c
+	"etk_app.h"
+	"etk_wnd_manager.h"
+	"etk_image_bmp_decoder.h"
+	"etk_image_jpeg_decoder.h"
+	"ekt_input_method_pinyin.h"
+	"etk_window.h"
+	"etk_button.h"
+	"etk.h"
+	"etk_wnd_manager.h"
+	"etk_util.h"
+	"etk_stack.h"
+	"etk_button.h"
+	"etk_image_jpeg_decoder.h"
+	"etk_menu.h"
+	"etk_menu_item.h"
+	"etk_entry.h"
+	"etk_input_method_manager.h"
+	"ekt_input_method_pinyin.h"
+	"etk_display_sdl.h"
+	"etk_rect.h"
+	"etk_type.h"
+	"etk_source_timer.h"
+	"etk_sources_manager.h"
+	"mine.h"
+
+1332549636 d:\my documents\codeprojec\etk\etk_app.h
+	"etk_widget.h"
+
+1330564410 d:\my documents\codeprojec\etk\etk_image_bmp_decoder.h
+	"etk_image_decoder.h"
+
+1330564346 d:\my documents\codeprojec\etk\etk_image_decoder.h
+	"etk_bitmap.h"
+
+1330569820 d:\my documents\codeprojec\etk\etk_image_jpeg_decoder.h
+	"etk_image_decoder.h"
+
+1330242050 d:\my documents\codeprojec\etk\etk_util.h
+	"etk_bitmap.h"
+
+1330480352 d:\my documents\codeprojec\etk\etk_stack.h
+	"etk_platform.h"
+
+1331016470 d:\my documents\codeprojec\etk\etk_menu.h
+	"etk_widget.h"
+	"etk_type.h"
+
+1331016504 d:\my documents\codeprojec\etk\etk_menu_item.h
+	"etk_widget.h"
+	"etk_type.h"
+
+1332292908 d:\my documents\codeprojec\etk\etk_source_timer.h
+	"etk_source.h"
+
+1332547801 source:d:\my documents\codeprojec\etk\etk_bitmap.c
+	"etk_bitmap.h"
+	"etk_platform.h"
+	"etk_color.h"
+
+1332405152 source:d:\my documents\codeprojec\etk\etk_button.c
+	"etk_button.h"
+	"etk_platform.h"
+	"etk_widget.h"
+	"etk_wnd_manager.h"
+
+1332848460 source:d:\my documents\codeprojec\etk\etk_canvas.c
+	"etk_canvas.h"
+	"etk_gconf.h"
+	"etk_bitmap.h"
+	"etk_platform.h"
+	"etk_wnd_manager.h"
+	"etk_global.h"
+
+1332508340 source:d:\my documents\codeprojec\etk\etk_color.c
+	"etk_color.h"
+
+1330005084 source:d:\my documents\codeprojec\etk\etk_display.c
+	"etk_display.h"
+	"etk_type.h"
+	"etk_rect.h"
+
+1332291926 source:d:\my documents\codeprojec\etk\etk_display_sdl.c
+	"etk_display_sdl.h"
+	"etk_type.h"
+	<SDL/SDL.h>
+	"etk_rect.h"
+
+1332774864 source:d:\my documents\codeprojec\etk\etk_entry.c
+	"etk_entry.h"
+	"etk_text_buffer.h"
+	"etk_platform.h"
+	"etk_wnd_manager.h"
+	"etk_input_method_manager.h"
+	"etk_key.h"
+
+1331974028 d:\my documents\codeprojec\etk\etk_text_buffer.h
+	"etk_type.h"
+
+1328542612 source:d:\my documents\codeprojec\etk\etk_event.c
+	"etk_event.h"
+
+1332846508 source:d:\my documents\codeprojec\etk\etk_font.c
+	"etk_font.h"
+	"etk_platform.h"
+	"etk_util.h"
+
+1326735082 source:d:\my documents\codeprojec\etk\etk_gconf.c
+	"etk_gconf.h"
+
+1330564532 source:d:\my documents\codeprojec\etk\etk_image_bmp_decoder.c
+	"etk_image_bmp_decoder.h"
+	"etk_platform.h"
+	"etk_util.h"
+
+1330564368 source:d:\my documents\codeprojec\etk\etk_image_decoder.c
+	"etk_image_decoder.h"
+
+1332996854 source:d:\my documents\codeprojec\etk\etk_image_jpeg_decoder.c
+	"etk_image_jpeg_decoder.h"
+	"jpeglib.h"
+	"etk_bitmap.h"
+	"etk_image_decoder.h"
+	"etk_platform.h"
+	<setjmp.h>
+	"jpegdec.h"
+
+1092789702 d:\my documents\codeprojec\etk\jpeglib.h
+	"jconfig.h"
+	"jmorecfg.h"
+	"jpegint.h"
+	"jerror.h"
+
+1330565562 d:\my documents\codeprojec\etk\jconfig.h
+	"etk_type.h"
+
+1092789702 d:\my documents\codeprojec\etk\jmorecfg.h
+
+1092789702 d:\my documents\codeprojec\etk\jpegint.h
+
+1092789702 d:\my documents\codeprojec\etk\jerror.h
+
+1332169990 source:d:\my documents\codeprojec\etk\etk_input_method.c
+	"etk_input_method.h"
+	"etk_widget.h"
+	"etk_type.h"
+
+1332211358 source:d:\my documents\codeprojec\etk\etk_input_method_manager.c
+	"etk_input_method_manager.h"
+	"etk_input_method.h"
+	"etk_type.h"
+	"etk_widget.h"
+	"etk_platform.h"
+	"ekt_input_method_pinyin.h"
+	"etk_global.h"
+
+1332764022 source:d:\my documents\codeprojec\etk\etk_linux.c
+	"etk_linux.h"
+	"etk_platform.h"
+
+1332314194 source:d:\my documents\codeprojec\etk\etk_main_loop.c
+	"etk_main_loop.h"
+	"etk_platform.h"
+	"etk_event.h"
+	"etk_source_default.h"
+	"etk_global.h"
+
+1330841256 source:d:\my documents\codeprojec\etk\etk_malloc.c
+	"etk_malloc.h"
+	"etk_platform.h"
+	"etk_type.h"
+
+1330840576 d:\my documents\codeprojec\etk\etk_malloc.h
+	"etk_type.h"
+
+1331705694 source:d:\my documents\codeprojec\etk\etk_menu.c
+	"etk_menu.h"
+	"etk_platform.h"
+	"etk_wnd_manager.h"
+
+1332548715 source:d:\my documents\codeprojec\etk\etk_menu_item.c
+	"etk_menu_item.h"
+	"etk_platform.h"
+	"etk_wnd_manager.h"
+
+1332296880 source:d:\my documents\codeprojec\etk\etk_pipe.c
+	"etk_pipe.h"
+	"etk_platform.h"
+	"etk_win32.h"
+
+1328544032 d:\my documents\codeprojec\etk\etk_pipe.h
+	"etk_type.h"
+
+1326735082 source:d:\my documents\codeprojec\etk\etk_platform.c
+	"etk_platform.h"
+
+1332229220 source:d:\my documents\codeprojec\etk\etk_rect.c
+	"etk_rect.h"
+	"etk_platform.h"
+	"etk_widget.h"
+	"etk_stack.h"
+	"etk_display_sdl.h"
+
+1330242400 source:d:\my documents\codeprojec\etk\etk_source.c
+	"etk_source.h"
+	"etk_global.h"
+
+1332312870 source:d:\my documents\codeprojec\etk\etk_source_default.c
+	"etk_source_default.h"
+	"etk_event.h"
+	"etk_pipe.h"
+	"etk_global.h"
+	"etk_sources_manager.h"
+	"etk_platform.h"
+
+1332562236 source:d:\my documents\codeprojec\etk\etk_source_sdl.c
+	"etk_source_sdl.h"
+	"etk_display.h"
+	"etk_type.h"
+	"etk_platform.h"
+	"etk_display_sdl.h"
+	"etk_wnd_manager.h"
+	"etk.h"
+	"etk_key.h"
+
+1332333128 source:d:\my documents\codeprojec\etk\etk_source_timer.c
+	"etk_type.h"
+	"etk_source_timer.h"
+	"etk_platform.h"
+	"etk_win32.h"
+
+1330060660 source:d:\my documents\codeprojec\etk\etk_sources_manager.c
+	"etk_sources_manager.h"
+	"etk_source.h"
+	"etk_global.h"
+	"etk_platform.h"
+
+1330439276 source:d:\my documents\codeprojec\etk\etk_stack.c
+	"etk_stack.h"
+
+1332249236 source:d:\my documents\codeprojec\etk\etk_text_buffer.c
+	"etk_text_buffer.h"
+	"etk_platform.h"
+
+1332846834 source:d:\my documents\codeprojec\etk\etk_util.c
+	"etk_util.h"
+	"etk_bitmap.h"
+	"etk_color.h"
+	"etk_platform.h"
+
+1332428198 source:d:\my documents\codeprojec\etk\etk_widget.c
+	"etk_widget.h"
+	"etk_platform.h"
+	"etk_type.h"
+	"etk_canvas.h"
+	"etk_global.h"
+	"etk_display_sdl.h"
+	"etk_wnd_manager.h"
+
+1332562316 source:d:\my documents\codeprojec\etk\etk_window.c
+	"etk_window.h"
+	"etk_platform.h"
+	"etk_global.h"
+	"etk_wnd_manager.h"
+	"etk_key.h"
+
+1332560009 source:d:\my documents\codeprojec\etk\etk_wnd_manager.c
+	"etk_wnd_manager.h"
+	"etk_global.h"
+	"etk_type.h"
+	"etk_platform.h"
+	"etk_rect.h"
+	"etk_main_loop.h"
+	"etk_widget.h"
+	"etk_display_sdl.h"
+	"etk_stack.h"
+	"queue.h"
+	"etk_window.h"
+
+1330479762 d:\my documents\codeprojec\etk\queue.h
+
+1092789700 source:d:\my documents\codeprojec\etk\jcomapi.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1092789702 d:\my documents\codeprojec\etk\jinclude.h
+	"jconfig.h"
+	<stddef.h>
+	<stdlib.h>
+	<sys/types.h>
+	<stdio.h>
+	<strings.h>
+	<string.h>
+
+1092789700 source:d:\my documents\codeprojec\etk\jdapimin.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1092789700 source:d:\my documents\codeprojec\etk\jdapistd.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1092789700 source:d:\my documents\codeprojec\etk\jdcoefct.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1092789700 source:d:\my documents\codeprojec\etk\jdcolor.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1092789700 source:d:\my documents\codeprojec\etk\jddctmgr.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1092789700 d:\my documents\codeprojec\etk\jdct.h
+
+1092789700 source:d:\my documents\codeprojec\etk\jdhuff.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdhuff.h"
+
+1092789700 d:\my documents\codeprojec\etk\jdhuff.h
+
+1092789700 source:d:\my documents\codeprojec\etk\jdinput.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jdmainct.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jdmarker.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jdmaster.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jdmerge.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jdphuff.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdhuff.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jdpostct.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jdsample.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jdtrans.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jerror.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jversion.h"
+	"jerror.h"
+	<windows.h>
+	"jerror.h"
+
+1092789702 d:\my documents\codeprojec\etk\jversion.h
+
+1092789702 source:d:\my documents\codeprojec\etk\jfdctflt.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jfdctfst.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jfdctint.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jidctflt.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jidctfst.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jidctint.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jidctred.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jdct.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jmemmgr.c
+	"jinclude.h"
+	"jpeglib.h"
+	"jmemsys.h"
+
+1092789702 d:\my documents\codeprojec\etk\jmemsys.h
+	<Files.h>
+
+1330566806 source:d:\my documents\codeprojec\etk\jmemsysextern.c
+	"jpeglib.h"
+	"etk_platform.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jquant1.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jquant2.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1092789702 source:d:\my documents\codeprojec\etk\jutils.c
+	"jinclude.h"
+	"jpeglib.h"
+
+1332381980 source:d:\my documents\codeprojec\etk\main.c
+	"etk.h"
+	"etk_app.h"
+
+1332293412 source:d:\my documents\codeprojec\etk\etk_win32.c
+	"etk_win32.h"
+	"etk_platform.h"
+
+1332293254 d:\my documents\codeprojec\etk\etk_win32.h
+	<io.h>
+	<time.h>
+	<stdio.h>
+	<windows.h>
+	<sys/stat.h>
+	<sys/types.h>
+
+1331641977 d:\my documents\codeprojec\etklib\include\mine.h
+	"etk_type.h"
+	"etk_rect.h"
+	"etk_display_sdl.h"
+	"etk_platform.h"
+	"etk_window.h"
+	"etk.h"
+	"etk_wnd_manager.h"
+	"etk_util.h"
+	"etk_stack.h"
+	"etk_button.h"
+	"etk_image_jpeg_decoder.h"
+	"etk_image_bmp_decoder.h"
+	"etk_widget.h"
+	"etk_platform.h"
+
+1332736434 d:\my documents\codeprojec\etklib\include\etk_type.h
+
+1330947740 d:\my documents\codeprojec\etklib\include\etk_rect.h
+	"etk_type.h"
+
+1330522576 d:\my documents\codeprojec\etklib\include\etk_display_sdl.h
+	"etk_bitmap.h"
+	"etk_display.h"
+	"etk_type.h"
+	<SDL/SDL.h>
+	"etk_rect.h"
+
+1331213728 d:\my documents\codeprojec\etklib\include\etk_bitmap.h
+	"etk_type.h"
+	"etk_color.h"
+
+1326735082 d:\my documents\codeprojec\etklib\include\etk_color.h
+	"etk_type.h"
+
+1330005102 d:\my documents\codeprojec\etklib\include\etk_display.h
+	"etk_bitmap.h"
+	"etk_type.h"
+	"etk_rect.h"
+
+1332293502 d:\my documents\codeprojec\etklib\include\etk_platform.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1332430758 d:\my documents\codeprojec\etklib\include\etk_window.h
+	"etk_widget.h"
+
+1332050764 d:\my documents\codeprojec\etklib\include\etk_widget.h
+	"etk_display.h"
+	"etk_type.h"
+	"etk_canvas.h"
+	"etk_event.h"
+	"etk_rect.h"
+
+1332378378 d:\my documents\codeprojec\etklib\include\etk_canvas.h
+	"etk_bitmap.h"
+	"etk_type.h"
+	"etk_gconf.h"
+	"etk_display.h"
+	"etk_rect.h"
+
+1330521588 d:\my documents\codeprojec\etklib\include\etk_gconf.h
+	"etk_font.h"
+	"etk_color.h"
+
+1330521490 d:\my documents\codeprojec\etklib\include\etk_font.h
+	"etk_type.h"
+
+1332332932 d:\my documents\codeprojec\etklib\include\etk_event.h
+	"etk_type.h"
+	"etk_rect.h"
+
+1328639094 d:\my documents\codeprojec\etklib\include\etk.h
+	"etk_type.h"
+
+1332207414 d:\my documents\codeprojec\etklib\include\etk_wnd_manager.h
+	"etk_type.h"
+	"etk_widget.h"
+	"etk_event.h"
+	"etk_main_loop.h"
+
+1330241596 d:\my documents\codeprojec\etklib\include\etk_main_loop.h
+	"etk_sources_manager.h"
+	"etk_platform.h"
+	"etk_win32.h"
+
+1328626628 d:\my documents\codeprojec\etklib\include\etk_sources_manager.h
+	"etk_type.h"
+	"etk_source.h"
+
+1328636048 d:\my documents\codeprojec\etklib\include\etk_source.h
+	"etk_type.h"
+
+1332293254 d:\my documents\codeprojec\etklib\include\etk_win32.h
+	<io.h>
+	<time.h>
+	<stdio.h>
+	<windows.h>
+	<sys/stat.h>
+	<sys/types.h>
+
+1330242050 d:\my documents\codeprojec\etklib\include\etk_util.h
+	"etk_bitmap.h"
+
+1330480352 d:\my documents\codeprojec\etklib\include\etk_stack.h
+	"etk_platform.h"
+
+1332247188 d:\my documents\codeprojec\etklib\include\etk_button.h
+	"etk_widget.h"
+
+1330569820 d:\my documents\codeprojec\etklib\include\etk_image_jpeg_decoder.h
+	"etk_image_decoder.h"
+
+1330564346 d:\my documents\codeprojec\etklib\include\etk_image_decoder.h
+	"etk_bitmap.h"
+
+1330564410 d:\my documents\codeprojec\etklib\include\etk_image_bmp_decoder.h
+	"etk_image_decoder.h"
+
+970902466 d:\my documents\codeprojec\etklib\include\jpegdec.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1332775236 source:d:\my documents\codeprojec\etk\etk_global.c
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_platform.h
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_config_dreamcast.h
+	"SDL_platform.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_config_macos.h
+	"SDL_platform.h"
+	<MacTypes.h>
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_config_symbian.h
+	"SDL_platform.h"
+	<stdarg.h>
+	<stddef.h>
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_config_os2.h
+	"SDL_platform.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_config_minimal.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\begin_code.h
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\close_code.h
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_keysym.h
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255750318 d:\my documents\visual c++\sdk\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1331641977 d:\my documents\codeprojec\etk\mine.h
+	"etk_type.h"
+	"etk_rect.h"
+	"etk_display_sdl.h"
+	"etk_platform.h"
+	"etk_window.h"
+	"etk.h"
+	"etk_wnd_manager.h"
+	"etk_util.h"
+	"etk_stack.h"
+	"etk_button.h"
+	"etk_image_jpeg_decoder.h"
+	"etk_image_bmp_decoder.h"
+	"etk_widget.h"
+	"etk_platform.h"
+
+970902466 d:\my documents\codeprojec\etk\jpegdec.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1332248538 source:d:\my documents\visual c++\etkgui-vc6\etklib\ekt_input_method_pinyin.c
+	"ekt_input_method_pinyin.h"
+	<string.h>
+	"etk_window.h"
+	"etk_wnd_manager.h"
+	"etk_button.h"
+	"etk_entry.h"
+	"etk_key.h"
+
+1332206272 d:\my documents\visual c++\etkgui-vc6\etklib\ekt_input_method_pinyin.h
+	"etk_input_method.h"
+
+1332169940 d:\my documents\visual c++\etkgui-vc6\etklib\etk_input_method.h
+	"etk_widget.h"
+	"etk_event.h"
+
+1332050764 d:\my documents\visual c++\etkgui-vc6\etklib\etk_widget.h
+	"etk_display.h"
+	"etk_type.h"
+	"etk_canvas.h"
+	"etk_event.h"
+	"etk_rect.h"
+
+1330005102 d:\my documents\visual c++\etkgui-vc6\etklib\etk_display.h
+	"etk_bitmap.h"
+	"etk_type.h"
+	"etk_rect.h"
+
+1331213728 d:\my documents\visual c++\etkgui-vc6\etklib\etk_bitmap.h
+	"etk_type.h"
+	"etk_color.h"
+
+1332509061 d:\my documents\visual c++\etkgui-vc6\etklib\etk_type.h
+
+1326735082 d:\my documents\visual c++\etkgui-vc6\etklib\etk_color.h
+	"etk_type.h"
+
+1330947740 d:\my documents\visual c++\etkgui-vc6\etklib\etk_rect.h
+	"etk_type.h"
+
+1332378378 d:\my documents\visual c++\etkgui-vc6\etklib\etk_canvas.h
+	"etk_bitmap.h"
+	"etk_type.h"
+	"etk_gconf.h"
+	"etk_display.h"
+	"etk_rect.h"
+
+1330521588 d:\my documents\visual c++\etkgui-vc6\etklib\etk_gconf.h
+	"etk_font.h"
+	"etk_color.h"
+
+1330521490 d:\my documents\visual c++\etkgui-vc6\etklib\etk_font.h
+	"etk_type.h"
+
+1332332932 d:\my documents\visual c++\etkgui-vc6\etklib\etk_event.h
+	"etk_type.h"
+	"etk_rect.h"
+
+1332430758 d:\my documents\visual c++\etkgui-vc6\etklib\etk_window.h
+	"etk_widget.h"
+
+1332207414 d:\my documents\visual c++\etkgui-vc6\etklib\etk_wnd_manager.h
+	"etk_type.h"
+	"etk_widget.h"
+	"etk_event.h"
+	"etk_main_loop.h"
+
+1330241596 d:\my documents\visual c++\etkgui-vc6\etklib\etk_main_loop.h
+	"etk_sources_manager.h"
+	"etk_platform.h"
+	"etk_win32.h"
+
+1328626628 d:\my documents\visual c++\etkgui-vc6\etklib\etk_sources_manager.h
+	"etk_type.h"
+	"etk_source.h"
+
+1328636048 d:\my documents\visual c++\etkgui-vc6\etklib\etk_source.h
+	"etk_type.h"
+
+1332293502 d:\my documents\visual c++\etkgui-vc6\etklib\etk_platform.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1332293254 d:\my documents\visual c++\etkgui-vc6\etklib\etk_win32.h
+	<io.h>
+	<time.h>
+	<stdio.h>
+	<windows.h>
+	<sys/stat.h>
+	<sys/types.h>
+
+1332247188 d:\my documents\visual c++\etkgui-vc6\etklib\etk_button.h
+	"etk_widget.h"
+
+1332241156 d:\my documents\visual c++\etkgui-vc6\etklib\etk_entry.h
+	"etk_widget.h"
+
+1332245868 d:\my documents\visual c++\etkgui-vc6\etklib\etk_key.h
+
