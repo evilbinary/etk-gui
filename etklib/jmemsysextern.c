@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "jpeglib.h"
 #include "etk_platform.h"
 

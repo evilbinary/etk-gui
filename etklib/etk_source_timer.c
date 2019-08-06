@@ -1,7 +1,11 @@
 #include "etk_type.h"
 #include "etk_source_timer.h"
 #include "etk_platform.h"
+#ifdef WIN32
 #include "etk_win32.h"
+#else
+#include "etk_unix.h"
+#endif
 
 typedef struct PrivInfo_t{
 	EtkTimer action;

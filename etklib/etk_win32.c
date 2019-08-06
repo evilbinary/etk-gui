@@ -1,23 +1,4 @@
 #include "etk_win32.h"
-#include "etk_platform.h"
-
- 
-//size_t ftk_get_relative_time(void)
-//{
-//	FILETIME        ft;
-//	LARGE_INTEGER   li;
-//	__int64         t;
-//
-//	GetSystemTimeAsFileTime(&ft);
-//	li.LowPart  = ft.dwLowDateTime;
-//	li.HighPart = ft.dwHighDateTime;
-//	t  = li.QuadPart;       /* In 100-nanosecond intervals */
-//	t /= 10;                /* In microseconds */
-//
-//	return t/1000;
-//}
- 
-
 size_t etk_get_relative_time(void){
 	FILETIME        ft;
 	LARGE_INTEGER   li;
@@ -110,8 +91,3 @@ void etk_platform_deinit(void){
 
 	return;
 }
-
-
-
-
- 

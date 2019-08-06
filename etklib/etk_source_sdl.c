@@ -82,7 +82,7 @@ __inline Ret etk_source_sdl_dispatch(EtkSource* thiz ){
 	//while(1){
 		if(!SDL_PollEvent( &event )){
 			SDL_Delay(10);
-			return ;
+			return RET_FAIL;
 			//break;
 		}
 		//dbg_printf("event\n");

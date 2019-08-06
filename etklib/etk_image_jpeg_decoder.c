@@ -1,9 +1,10 @@
+#include <setjmp.h>
+#include <stdlib.h>
 #include "etk_image_jpeg_decoder.h"
 #include "jpeglib.h"
 #include "etk_bitmap.h"
 #include "etk_image_decoder.h"
 #include "etk_platform.h"
-#include <setjmp.h>
 
 
 #define INPUT_BUF_SIZE  4096	/* choose an efficiently fread'able size */

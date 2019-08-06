@@ -63,6 +63,7 @@ Ret etk_window_on_paint_share_canvas_child(EtkWidget* thiz){
 		child->paint(child);
 		child=child->next;
 	}
+    return RET_OK;
 }
 Ret etk_window_on_paint_head(EtkWidget* thiz){
 	EtkColor color;
@@ -113,13 +114,14 @@ Ret etk_window_on_paint(EtkWidget* thiz){
 
 	etk_canvas_paint(thiz->display,thiz->canvas,&thiz->rect);
 	etk_window_on_paint_share_canvas_child(thiz);
+	return RET_OK;
 }
 Ret etk_window_on_event(EtkWidget* thiz, EtkEvent* event){
 	EtkWindowClass *priv=(EtkWindowClass*)thiz->subclass;
 	Ret ret;
 	EtkEvent e;
 	if(event==NULL)
-		return;
+		return RET_FAIL;
 	//dbg_printf("==etk_window_on_event\n");
 	switch(event->type){
 	case ETK_EVENT_UPDATE:
@@ -162,11 +164,13 @@ Ret etk_window_on_event(EtkWidget* thiz, EtkEvent* event){
 	default:
 		break;
 	}
+    return RET_OK;
 }
 
 Ret etk_window_on_key_event(EtkWidget* thiz, EtkEvent* event){
 	//dbg_printf("--etk_window_on_key_event\n");
 	//printf("key code:%x %d\n",event->u.key.code,event->u.key.code==ETK_KEY_SPACE);
+    return RET_OK;
 }
 Ret etk_window_on_mouse_event(EtkWidget* thiz, EtkEvent* event){
 	EtkWindowClass *priv=(EtkWindowClass*)thiz->subclass;
@@ -222,6 +226,7 @@ Ret etk_window_on_mouse_event(EtkWidget* thiz, EtkEvent* event){
 			w=w->next;
 		}
 	}
+    return RET_OK;
 }
 EtkRect etk_window_get_head_rect(EtkWidget* thiz){
 	EtkWindowClass *priv=(EtkWindowClass*)thiz->subclass;
@@ -235,6 +240,7 @@ EtkRect etk_window_get_close_rect(EtkWidget* thiz){
 Ret etk_window_update(EtkWidget* thiz, EtkRect* rect){
 
 	//thiz->display->update(thiz->display,thiz->canvas->bitmap,rect,thiz->canvas->region->rect.x,thiz->canvas->region->rect.y);
+    return RET_OK;
 }
 
 void etk_window_append_child(EtkWidget* parent, EtkWidget* child){

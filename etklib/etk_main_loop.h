@@ -3,7 +3,11 @@
 
 #include "etk_sources_manager.h"
 #include "etk_platform.h"
+#ifdef WIN32
 #include "etk_win32.h"
+#else
+#include "etk_unix.h"
+#endif
 
 struct EtkMainLoop_t;
 typedef struct EtkMainLoop_t EtkMainLoop;

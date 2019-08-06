@@ -6,9 +6,11 @@
 #include "etk_display_sdl.h"
 #include "etk_main_loop.h"
 #include "etk_source_sdl.h"
+#ifdef WIN32
 #include "etk_win32.h"
-
-
+#else
+#include "etk_unix.h"
+#endif
 
 void etk_init_all(){
 	//source manager init

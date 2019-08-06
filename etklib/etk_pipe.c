@@ -1,6 +1,10 @@
 #include "etk_pipe.h"
 #include "etk_platform.h"
+#ifdef WIN32
 #include "etk_win32.h"
+#else
+#include "etk_unix.h"
+#endif
 
 
 EtkPipe* etk_pipe_create(void){

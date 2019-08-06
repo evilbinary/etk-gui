@@ -89,7 +89,7 @@ EtkRect * get_rect(EtkRect *rects, e32 index) {
 
 
 
-_inline EtkPoint *etk_line_intersect(e32 x1, e32 x2, e32 x3, e32 x4) {
+inline EtkPoint *etk_line_intersect(e32 x1, e32 x2, e32 x3, e32 x4) {
 	e32 max = ETK_MAX(x1,x3);
 	e32 min = ETK_MIN(x2,x4);
 	//printf("x1:%d x2:%d x3:%d x4:%d\n",x1,x2,x3,x4);
@@ -104,7 +104,7 @@ _inline EtkPoint *etk_line_intersect(e32 x1, e32 x2, e32 x3, e32 x4) {
 	}
 }
 
-_inline e32 etk_line_intersect1(e32 *rx,e32 *ry,e32 x1, e32 x2, e32 x3, e32 x4) {
+inline e32 etk_line_intersect1(e32 *rx,e32 *ry,e32 x1, e32 x2, e32 x3, e32 x4) {
 	e32 max = ETK_MAX(x1,x3);
 	e32 min = ETK_MIN(x2,x4);
 	if (max <= min) {
