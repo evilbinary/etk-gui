@@ -81,7 +81,7 @@ __inline Ret etk_source_sdl_dispatch(EtkSource* thiz ){
 	EtkWidget *w;
 	//while(1){
 		if(!SDL_PollEvent( &event )){
-			SDL_Delay(10);
+			SDL_Delay(6);
 			return RET_OK;
 			//break;
 		}
