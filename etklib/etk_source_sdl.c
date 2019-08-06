@@ -82,7 +82,7 @@ __inline Ret etk_source_sdl_dispatch(EtkSource* thiz ){
 	//while(1){
 		if(!SDL_PollEvent( &event )){
 			SDL_Delay(10);
-			return RET_FAIL;
+			return RET_OK;
 			//break;
 		}
 		//dbg_printf("event\n");
@@ -172,7 +172,7 @@ __inline Ret etk_source_sdl_dispatch(EtkSource* thiz ){
 			priv->event.u.mouse.x = event.motion.x;
 			priv->event.u.mouse.y = event.motion.y;
 			etk_wnd_manager_queue_event(etk_default_wnd_manager(), &priv->event);
-			////dbg_printf("ETK_EVENT_MOUSE_MOVE\n");
+			//dbg_printf("ETK_EVENT_MOUSE_MOVE\n");
 			break;
 		case SDL_QUIT:
 			etk_default_main_loop()->running=0;

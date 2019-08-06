@@ -66,7 +66,7 @@ int etk_app_main( int argc, char* argv[] ){
 
 	//�����˵� 0
 	menu[0]=(EtkWidget*)etk_create_menu(status,0,00,80,30);
-	etk_widget_set_text(menu[0],"�˵�");
+	etk_widget_set_text(menu[0],"菜单");
 	etk_button_set_clicked_listener(menu[0],menu0_listener,menu[0]);
 	//�����Ӳ˵�
 	menu_item[0]=(EtkWidget*)etk_create_menu_item(menu[0],menu[0]->rect.x,menu[0]->rect.height,menu[0]->rect.width,20);
@@ -131,7 +131,7 @@ int etk_app_main( int argc, char* argv[] ){
 		timer=etk_source_timer_create(100,timer2_listener,wins[0]);
 		etk_sources_manager_add(etk_default_sources_manager(),timer);
 		etk_canvas_draw_char(wins[0]->canvas,50,50,'3');
-		etk_canvas_draw_string(wins[0]->canvas,50,80,"�¸¸�");
+		etk_canvas_draw_string(wins[0]->canvas,50,80,"哈哈");
 	}
 	//��ʾ���д���
 	etk_widget_show_all(desktop);

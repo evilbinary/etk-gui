@@ -70,8 +70,7 @@ Ret  etk_main_loop_run(EtkMainLoop* thiz){
 				//dbg_printf("etk_source_check\n");
 				if(etk_source_dispatch(source) != RET_OK){
 					dbg_printf("etk_sources_manager_remove33\n");
-					etk_sources_manager_remove(thiz->sources_manager, source);
-					 
+					etk_sources_manager_remove(thiz->sources_manager, source); 
 				}
 				 
 			}	
