@@ -1,15 +1,6 @@
-#LLVM_HOME=~/bin/obfuscator8
-#CC=$(LLVM_HOME)/bin/clang -arch arm64
-#CXX=$(LLVM_HOME)/bin/clang++ -arch arm64
-
 SDL_HOME=$(shell brew --prefix SDL)
 
-MACOSX_SDK=$(shell xcrun --sdk macosx --show-sdk-path)
-IPHONE_SDK=$(shell xcrun --sdk iphoneos --show-sdk-path)
-#SDKROOT=$(MACOSX_SDK)
-SDKROOT=$(IPHONE_SDK)
 MACOSX_DEPLOYMENT_TARGET=10.14
-SEED=$(shell date|md5)
 # 可以通过bash自动检测，没实现
 PLATFORM=MACOS
 
