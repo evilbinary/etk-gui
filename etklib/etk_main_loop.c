@@ -23,14 +23,14 @@ Ret  etk_main_loop_run(EtkMainLoop* thiz){
 	e32 mfd = 0;
 	e32 ret = 0;
 	struct timeval tv = {0};
-	e32 wait_time = 3000;
+	e32 wait_time = 3600*10000;
 	e32 source_wait_time = 0;
 
 	thiz->running=1;
 	printf("source nr:%d\n",thiz->sources_manager->source_nr);
 	while(thiz->running){
 		mfd = 0;
-		wait_time = 3600*1000;
+		
 		FD_ZERO(&thiz->fdset);
 		FD_ZERO(&thiz->err_fdset);
 
@@ -50,7 +50,6 @@ Ret  etk_main_loop_run(EtkMainLoop* thiz){
 		
 		tv.tv_sec = wait_time/1000; 
 		tv.tv_usec = (wait_time%1000) * 1000;
-
 		ret = select(mfd+1, &thiz->fdset, NULL, &thiz->err_fdset, &tv);
 		for(source=thiz->sources_manager->sources;source!=NULL;source=source->next){
 			if(source->disable > 0){
