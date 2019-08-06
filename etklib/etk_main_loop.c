@@ -47,6 +47,7 @@ Ret  etk_main_loop_run(EtkMainLoop* thiz){
 			}
 			
 		}
+		
 		tv.tv_sec = wait_time/1000; 
 		tv.tv_usec = (wait_time%1000) * 1000;
 
