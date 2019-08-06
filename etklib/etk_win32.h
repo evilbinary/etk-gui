@@ -1,7 +1,6 @@
 #ifndef _ETK_WIN32_H
 #define _ETK_WIN32_H
 
-#include <io.h>
 #include <time.h>
 #include <stdio.h>
 #include <windows.h>
@@ -20,5 +19,7 @@ size_t etk_get_relative_time(void);
   
 int etk_platform_init(int argc, char** argv);
 void etk_platform_deinit(void);
+
+
 
 #endif

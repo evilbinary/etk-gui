@@ -81,7 +81,7 @@ typedef enum EtkPixelFormat_e
 
 #define NULL 0
 typedef int Bool;
-typedef  unsigned int   size_t;
+//typedef  unsigned int   size_t;
 
 typedef void (*EtkDestroy)(void* user_data);
 typedef Ret  (*EtkIdle)(void* user_data);
@@ -90,8 +90,8 @@ typedef int  (*EtkCompare)(const void* obj1, const void* obj2);
 typedef Ret  (*EtkListener)(void* user_data, void* obj);
 
 
-//#define etk_logw(s) printf(s)
-#define etk_logw(s) 
+#define etk_logw(...) printf(__VA_ARGS__)
+//#define etk_logw(s) 
 #define return_if_fail(p)          if(!(p)) { etk_logw("%s:%d "#p" failed.\n", __func__, __LINE__); return;}
 #define return_val_if_fail(p, val) if(!(p)) { etk_logw("%s:%d "#p" failed.\n", __func__, __LINE__); return (val);}
 

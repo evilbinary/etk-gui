@@ -206,7 +206,7 @@ Ret etk_canvas_draw_char_with_color(EtkCanvas* thiz,e32 x,e32 y,u32 ch,u32 fg,u3
 	cur.x=x;
 	cur.y=y;
 	code=ch;
-	if(code<0x20) return;
+	if(code<0x20) return RET_FAIL;
 	if(code<0x7f){	
 		code=code-0x20;
 		lp = ASCII + code * 16;
@@ -251,7 +251,7 @@ Ret etk_canvas_draw_char(EtkCanvas* thiz,e32 x,e32 y,u32 ch){
 	cur.x=x;
 	cur.y=y;
 	code=ch;
-	if(code<0x20) return;
+	if(code<0x20) return RET_FAIL;
 	if(code<0x7f){	
 		code=code-0x20;
 		lp = ASCII + code * 16;
