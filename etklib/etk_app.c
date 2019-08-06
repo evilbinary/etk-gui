@@ -43,32 +43,32 @@ int etk_app_main( int argc, char* argv[] ){
 
 	e8 button_name[20][10]={"Clock","Vedio","Temp","Note","Shut","Help","Mine","Block","Photo"};
 
-	//È¡µÃ´°¿Ú¹ÜÀí
+	//È¡ï¿½Ã´ï¿½ï¿½Ú¹ï¿½ï¿½ï¿½
 	manager=etk_get_wnd_manager();
-	//´´½¨Í¼Æ¬½âÂë
+	//ï¿½ï¿½ï¿½ï¿½Í¼Æ¬ï¿½ï¿½ï¿½ï¿½
 	jpeg_decoder=etk_image_jpeg_decoder_create();
 	bmp_decoder=etk_image_bmp_decoder_create();
 
-	//´´½¨×ÀÃæ
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	/*desktop=(EtkWidget*)etk_create_window(0,0,640,480,ETK_WIDGET_DESKTOP);
 	etk_default_wnd_manager_set_desktop(manager,desktop);*/
 	desktop=etk_create_window(0,0,639,479,ETK_WIDGET_DESKTOP|ETK_WIDGET_NO_BITMAP);
-	b=bmp_decoder->decode(bmp_decoder,"bg.bmp");
+	b=bmp_decoder->decode(bmp_decoder,"./bg.bmp");
 	t.x=0;t.y=0;
 	t.width=b->w;
 	t.height=b->h;
 	etk_canvas_set_bitmap(desktop->canvas,b);
 
 
-	//´´½¨×´Ì¬À¸
+	//ï¿½ï¿½ï¿½ï¿½×´Ì¬ï¿½ï¿½
 	status=(EtkWidget*)etk_create_window(0,0,640,30,ETK_WIDGET_CHILD);
 	etk_widget_append_child(desktop,status);
 
-	//´´½¨²Ëµ¥ 0
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ 0
 	menu[0]=(EtkWidget*)etk_create_menu(status,0,00,80,30);
-	etk_widget_set_text(menu[0],"²Ëµ¥");
+	etk_widget_set_text(menu[0],"ï¿½Ëµï¿½");
 	etk_button_set_clicked_listener(menu[0],menu0_listener,menu[0]);
-	//´´½¨×Ó²Ëµ¥
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Ó²Ëµï¿½
 	menu_item[0]=(EtkWidget*)etk_create_menu_item(menu[0],menu[0]->rect.x,menu[0]->rect.height,menu[0]->rect.width,20);
 	etk_widget_set_text(menu_item[0],"Open");
 	etk_menu_item_set_clicked_listener(menu_item[0],menu0_item0_listener,menu_item[0]);
@@ -81,12 +81,12 @@ int etk_app_main( int argc, char* argv[] ){
 	etk_widget_set_text(menu_item[2],"Exit");
 	etk_menu_item_set_clicked_listener(menu_item[2],menu0_item2_listener,menu_item[2]);
 
-	//´´½¨²Ëµ¥ 1
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ 1
 	menu[1]=(EtkWidget*)etk_create_menu(status,80,0,80,30);
 	etk_widget_set_text(menu[1],"Setting");
 	etk_button_set_clicked_listener(menu[1],menu1_listener,menu[1]);
 
-	//´´½¨×Ó²Ëµ¥
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Ó²Ëµï¿½
 	menu_item[3]=(EtkWidget*)etk_create_menu_item(menu[1],menu[1]->rect.x,menu[1]->rect.height,menu[1]->rect.width,20);
 	etk_widget_set_text(menu_item[3],"Open F");
 	etk_menu_item_set_clicked_listener(menu_item[3],menu0_item0_listener,menu_item[3]);
@@ -100,7 +100,7 @@ int etk_app_main( int argc, char* argv[] ){
 	etk_menu_item_set_clicked_listener(menu_item[5],menu0_item2_listener,menu_item[5]);
 
 
-	//´´½¨°´Å¥
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¥
 	startx=10;starty=430;xsize=52;ysize=40;xspan=5;yspan=5;
 	x=startx;y=starty;
 	for(i=0;i<9;i++){
@@ -130,10 +130,10 @@ int etk_app_main( int argc, char* argv[] ){
 		wins[0]=etk_create_window(20,20,200,150,ETK_WIDGET_WINDOW);
 		timer=etk_source_timer_create(100,timer2_listener,wins[0]);
 		etk_sources_manager_add(etk_default_sources_manager(),timer);
-		etk_canvas_draw_char(wins[0]->canvas,50,50,'¸Â');
-		etk_canvas_draw_string(wins[0]->canvas,50,80,"¸Â¸Â¸Â");
+		etk_canvas_draw_char(wins[0]->canvas,50,50,'3');
+		etk_canvas_draw_string(wins[0]->canvas,50,80,"ï¿½Â¸Â¸ï¿½");
 	}
-	//ÏÔÊ¾ËùÓÐ´°¿Ú
+	//ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½
 	etk_widget_show_all(desktop);
 
 	return 0;

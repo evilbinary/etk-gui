@@ -7,38 +7,38 @@
 #include "etk.h"
 #include "etk_key.h"
 
-
+#define MAX 0xff
 
 typedef struct _PrivInfo
 {
 	EtkEvent event;
 }PrivInfo;
 
-static int s_key_map[0xff] = {0};
+static int s_key_map[MAX] = {0};
 
 static void etk_keymap_init(void){
-	s_key_map[SDLK_ESCAPE] = ETK_KEY_ESC;
-	s_key_map[SDLK_MINUS] = ETK_KEY_MINUS;
-	s_key_map[SDLK_PLUS] = ETK_KEY_PLUS;
-	s_key_map[SDLK_KP_MINUS] = ETK_KEY_MINUS;
-	s_key_map[SDLK_KP_PLUS] = ETK_KEY_PLUS;
-	s_key_map[SDLK_BACKSPACE] = ETK_KEY_SPACE;
-	s_key_map[SDLK_EQUALS] = ETK_KEY_EQUAL;
-	s_key_map[SDLK_KP_EQUALS] = ETK_KEY_EQUAL;
-	s_key_map[SDLK_BACKSPACE] = ETK_KEY_BACKSPACE;
-	s_key_map[SDLK_TAB] = ETK_KEY_TAB;
-	s_key_map[SDLK_RETURN] = ETK_KEY_ENTER;
-	s_key_map[SDLK_KP_ENTER] = ETK_KEY_ENTER;
-	s_key_map[SDLK_LEFT] = ETK_KEY_LEFT;
-	s_key_map[SDLK_RIGHT] = ETK_KEY_RIGHT;
-	s_key_map[SDLK_DOWN] = ETK_KEY_DOWN;
-	s_key_map[SDLK_DELETE] = ETK_KEY_DELETE;
-	s_key_map[SDLK_UP] = ETK_KEY_UP;
-	s_key_map[SDLK_INSERT]=ETK_KEY_INSERT;
-	s_key_map[SDLK_LCTRL]=ETK_KEY_LEFTCTRL;
-	s_key_map[SDLK_RCTRL]=ETK_KEY_RIGHTCTRL;
-	s_key_map[SDLK_RSHIFT]=ETK_KEY_RIGHTSHIFT;
-	s_key_map[SDLK_LSHIFT]=ETK_KEY_LEFTSHIFT;
+	s_key_map[SDLK_ESCAPE%MAX] = ETK_KEY_ESC;
+	s_key_map[SDLK_MINUS%MAX] = ETK_KEY_MINUS;
+	s_key_map[SDLK_PLUS%MAX] = ETK_KEY_PLUS;
+	s_key_map[SDLK_KP_MINUS%MAX] = ETK_KEY_MINUS;
+	s_key_map[SDLK_KP_PLUS%MAX] = ETK_KEY_PLUS;
+	s_key_map[SDLK_BACKSPACE%MAX] = ETK_KEY_SPACE;
+	s_key_map[SDLK_EQUALS%MAX] = ETK_KEY_EQUAL;
+	s_key_map[SDLK_KP_EQUALS%MAX] = ETK_KEY_EQUAL;
+	s_key_map[SDLK_BACKSPACE%MAX] = ETK_KEY_BACKSPACE;
+	s_key_map[SDLK_TAB%MAX] = ETK_KEY_TAB;
+	s_key_map[SDLK_RETURN%MAX] = ETK_KEY_ENTER;
+	s_key_map[SDLK_KP_ENTER%MAX] = ETK_KEY_ENTER;
+	s_key_map[SDLK_LEFT%MAX] = ETK_KEY_LEFT;
+	s_key_map[SDLK_RIGHT%MAX] = ETK_KEY_RIGHT;
+	s_key_map[SDLK_DOWN%MAX] = ETK_KEY_DOWN;
+	s_key_map[SDLK_DELETE%MAX] = ETK_KEY_DELETE;
+	s_key_map[SDLK_UP%MAX] = ETK_KEY_UP;
+	s_key_map[SDLK_INSERT%MAX]=ETK_KEY_INSERT;
+	s_key_map[SDLK_LCTRL%MAX]=ETK_KEY_LEFTCTRL;
+	s_key_map[SDLK_RCTRL%MAX]=ETK_KEY_RIGHTCTRL;
+	s_key_map[SDLK_RSHIFT%MAX]=ETK_KEY_RIGHTSHIFT;
+	s_key_map[SDLK_LSHIFT%MAX]=ETK_KEY_LEFTSHIFT;
 }	
  
 

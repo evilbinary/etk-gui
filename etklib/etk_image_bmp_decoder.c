@@ -5,6 +5,7 @@
 EtkImageDecoder* etk_image_bmp_decoder_create(void){
 	EtkImageDecoder* thiz=(EtkImageDecoder* )ETK_MALLOC(sizeof(EtkImageDecoder));
 	thiz->decode=etk_image_bmp_decoder;
+	return thiz;
 }
 
 EtkBitmap* etk_image_bmp_decoder(EtkImageDecoder *thiz,const e8 *filename){
@@ -12,7 +13,6 @@ EtkBitmap* etk_image_bmp_decoder(EtkImageDecoder *thiz,const e8 *filename){
 }
 void etk_image_bmp_decoder_destroy(EtkImageDecoder* thiz){
 	if(thiz!=NULL){
-
 		ETK_FREE(thiz);
 	}
 }

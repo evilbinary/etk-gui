@@ -3,7 +3,7 @@
 #include "etk_bitmap.h"
 #include "etk_display.h"
 #include "etk_type.h"
-#include <SDL/SDL.h>
+#include <SDL.h>
 #include "etk_rect.h"
 
 

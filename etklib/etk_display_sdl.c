@@ -1,18 +1,42 @@
 #include "etk_display_sdl.h"
 #include "etk_type.h"
-#include <SDL/SDL.h>
+
+
+#include <SDL.h>
 #include "etk_rect.h"
 
 SDL_Surface * screen;
+#ifdef SDL2
+SDL_Window* gWindow = NULL;
+SDL_Renderer* renderer;
+#endif
 
+#define SCREEN_WIDTH 640
+#define SCREEN_HEIGHT 480
 #define R(color) (color>>16)
 #define G(color) ((color>>8)&0xff)
 #define B(color) (color&0xff)
 
 void etk_display_sdl_init() {
 	SDL_Init(SDL_INIT_EVERYTHING);
-	screen = SDL_SetVideoMode(640, 480,32,SDL_SWSURFACE );	//SDL_NOFRAME|
+	#ifdef SDL
+	screen = SDL_SetVideoMode(SCREEN_WIDTH, SCREEN_HEIGHT,32,SDL_SWSURFACE );	//SDL_NOFRAME|
 	SDL_WM_SetCaption("Etk gui", NULL );
+	#endif
+	#ifdef SDL2
+		//Create window
+        gWindow = SDL_CreateWindow( "Etk gui", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
+        if( gWindow == NULL )
+        {
+            printf( "Window could not be created! SDL_Error: %s\n", SDL_GetError() );
+        }
+        else
+        {
+            //Get window surface
+            screen = SDL_GetWindowSurface( gWindow );
+			renderer = SDL_CreateRenderer(gWindow, -1, 0);
+        }
+	#endif
 	//SDL_FillRect(screen,NULL,WHITE);
 	put_pixel32(screen, 10, 10, 0xffff);
 	//draw_hline(screen,10,10,100,RED);
@@ -30,7 +54,12 @@ void etk_display_sdl_init() {
 	//fill_rectangel(screen,50,70,100,80,RED);
 	//draw_rectangel_rect(screen,r0,BLUE);
 	//sub_rect(&win,r0);
+#ifdef SDL
 	SDL_Flip(screen);
+#endif
+#ifdef SDL2
+	SDL_RenderPresent(renderer);
+#endif
 }
 
 void etk_display_sdl_destroy() {
@@ -89,7 +118,12 @@ Ret etk_display_sdl_update(EtkDisplay * display, EtkBitmap *bitmap, EtkRect *rec
 
 	}
 	//SDL_Delay(200);
+#ifdef SDL
 	SDL_Flip(screen);
+#endif
+#ifdef SDL2
+	SDL_RenderPresent(renderer);
+#endif
 }
 
 
@@ -270,7 +304,12 @@ void draw_pixel(e32 x,e32 y,u32 pixel){
 }
 void draw_rect(EtkRect rect, u32 color) {
 	draw_rectangle_rect(screen, rect, color);
+#ifdef SDL
 	SDL_Flip(screen);
+#endif
+#ifdef SDL2
+	SDL_RenderPresent(renderer);
+#endif
 }
 
 void draw_rects_minus(EtkRect *rects,e32 m, u32 color) {
@@ -288,7 +327,12 @@ void draw_rects_minus(EtkRect *rects,e32 m, u32 color) {
 
 	}
 
+	#ifdef SDL
 	SDL_Flip(screen);
+#endif
+#ifdef SDL2
+	SDL_RenderPresent(renderer);
+#endif
 }
 void draw_rects(EtkRect *rects, u32 color) {
 	EtkRect *p = rects;
@@ -301,7 +345,12 @@ void draw_rects(EtkRect *rects, u32 color) {
 
 	}
 	//draw_rectangel_rect(screen,*t,YELLOW);
+#ifdef SDL
 	SDL_Flip(screen);
+#endif
+#ifdef SDL2
+	SDL_RenderPresent(renderer);
+#endif
 }
 void fill_rects(EtkRect *rects) {
 	EtkRect *p = rects;
@@ -325,7 +374,12 @@ void fill_rect_plus(EtkRect rect, u32 color) {
 	if (p == NULL)
 		return;
 	fill_rectangle(screen, p->x + 1, p->y + 1, p->width - 2, p->height - 2, color);
+#ifdef SDL
 	SDL_Flip(screen);
+#endif
+#ifdef SDL2
+	SDL_RenderPresent(renderer);
+#endif
 	//SDL_Delay(100);
 	//fill_rectangle(screen, p->x + 1, p->y + 1, p->width - 2, p->height - 2, GRAY);
 	//SDL_Flip(screen);

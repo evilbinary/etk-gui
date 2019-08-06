@@ -8,7 +8,7 @@ void read_file_to_buffer(char* buffer,char* filename,int size){
 	FILE* f=fopen(filename,"rb");
 	int i;
 	if(!f){
-		printf("文件%s没找到.\n",filename);
+		printf("锟侥硷拷%s没锟揭碉拷.\n",filename);
 		return ;
 	}
 	//printf("size:%d",size);
@@ -16,10 +16,10 @@ void read_file_to_buffer(char* buffer,char* filename,int size){
 	fread(buffer,sizeof(char),size,f);
 	fclose(f);
 	if(strcmp("zmrom.bin",filename)==0){
-		printf("zmrom.bin");
+		printf("zmrom.bin\n");
 		f=fopen("tt.bin","wb");
 		if(f==NULL){
-			printf("文件ttbin没找到.\n");
+			printf("锟侥硷拷ttbin没锟揭碉拷.\n");
 	 
 		}
 		fwrite(buffer,sizeof(char),size,f);
